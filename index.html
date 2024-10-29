@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de números</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        h1 {
+            color: gray; /* Cambiado a gris */
+        }
+        #sql {
+            font-weight: bold; /* Efecto negrita para el campo de texto */
+            color: gray; /* Cambiado a gris */
+        }
+    </style>
+</head>
+<body id="idBody">
+
+    <header class="container">
+        <h1 class="text-center">Registro de números</h1>
+    </header>
+
+    <main class="container text-center">
+        <form id="envioSQL">
+            <input type="text" class="form-control" id="sql" placeholder="Nuevo número" required>
+            <input type="submit" class="btn btn-primary mt-1" value="Añadir">
+        </form>
+
+        <div id="resultado" class="mt-3"></div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js?v03"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(224, 210, 191);
+}
+
+.table{
+    border-radius: 6px;
+    overflow: hidden;
+}
